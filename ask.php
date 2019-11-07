@@ -1,25 +1,28 @@
+<?php
+    session_start();
+    include('connect.php');
+    if(!isset($_SESSION['user']))
+        header("location: login.php");
+?>
 
 <!DOCTYPE html>
 <html>
     <head>
-       <title> Real hacks- Blackhawks </title>
+        <title> Real Hack </title>
         <link type="text/css" rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="css/material.css">
         <link type="text/css" rel="stylesheet" href="fonts/font.css">
-        <link rel="icon" href="images/icon1.png" >
     </head>
     <body id="ask">
         <!-- navigation bar -->
         <a href="index.php">
             <div id="log">
-                <br><div id="ntro">Real hack- Team black hawks</div>
+                <div id="ntro">Real Hack</div>
             </div>
         </a>
         <ul id="nav-bar">
-        <a href="index.php"><li>Home</li></a>
-            <a href="categories.php"><li>Categories</li></a>
-            <a href="contacts.php"><li>Contact</li></a>
+            <a href="index.php"><li>Home</li></a>
             <a href="ask.php"><li id="home">Ask Question</li></a>
             <a href="profile.php"><li>Hi, <?php echo $_SESSION["user"]; ?></li></a>
             <a href="logout.php"><li>Log Out</li></a>
@@ -30,8 +33,8 @@
             <div id="sf">
                 <center>
                     <div class="heading ask">
-                        <h1 ><div id="ntro">Real Hack-Team Black Hawks</div></h1>
-                        <p id="tag-line">Enter Your Question</p>
+                        <h1 ><div id="ntro">Realhack</div></h1>
+                        <p id="tag-line">Enter your questions</p>
                     </div>
 
                     <form action="<?php echo htmlspecialchars( $_SERVER["PHP_SELF"] ); ?>" method="post" enctype="multipart/form-data">
@@ -39,13 +42,13 @@
                         <input name="question" type="text" title="Your Question..." placeholder="Ask Your question on our Community for greate user expereince..." id="question">
 
                         <select name="cat">
-                            <option valus="Category">Category</option>
-                            <option value="Algorithms">History</option>
-                            <option value="Architecture">Social</option>
-                            <option value="Theory Of Computation">Political</option>
+                            <option valus="Category">Categories</option>
+                            <option value="Algorithms">social</option>
+                            <option value="Architecture">History</option>
+                            <option value="Theory Of Computation">Politic</option>
                             <option value="Database Management">Science</option>
                             <option value="Probability &amp; Queuing">Programming</option>
-                            <option value="Software Engineering">Marketing</option>
+                            <option value="Software Engineering">Health</option>
                             <option value="Other">Other</option>
                         </select>
                         <input name="submit" type="submit" class="up-in" id="ask_submit">
@@ -55,7 +58,7 @@
         </div>
         
         <div id="ask-ta">
-            <h1>Thank You.<br>Stay tunned for updates.</h1>
+            <h1>Thank You.<br>We will notify when answers are recieved.</h1>
         </div>
         
         <?php
@@ -100,7 +103,7 @@
         
         <!-- Footer -->
         <div id="footer" style="padding:30px;">
-             Developed by Team black hawks
+            Real hack Team blackhawks
         </div>
         
         <!-- Sripts -->
