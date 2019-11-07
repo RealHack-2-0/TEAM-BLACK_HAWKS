@@ -1,0 +1,29 @@
+body{
+	background-image: url("Welcome.jfif");
+	height: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+button {
+	background-color: rgb(24, 233, 31);
+	color: white;
+	padding: 15px 0px;
+	margin: 0px;
+	border: none;
+	cursor: pointer;
+	width: 10%;
+	border-radius: 100px
+  }
+  #Loginbtn{ position: absolute; visibility: visible; left: 300px; top: 450px; z-index: 200;}
+  #Signupbtn{position: absolute; visibility: visible; left: 500px; top: 450px; z-index: 200;}
+  h1 {
+	font-size: 110px;
+	font-family: "Bradley Hand",cursive;
+	position: relative;visibility: visible;left: 210px;top: 250px;z-index: 20000;
+
+  }
+  button:hover {
+	opacity: 0.5;
+  }
+  

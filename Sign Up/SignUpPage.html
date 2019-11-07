@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Signup page</title>
+        <link rel="stylesheet" type="text/css" href="SignUpPage.css">
+    </head>
+    <body>
+        <h1>Fill in your details</h1>
+        <form action="reg.php" method ="post" enctype="multipart/form-data">
+            <label id="Username">Username<label>
+                    <input type="text" name="user" id="INusername" autocomplete="off" class="form-control" required>
+                     <br>
+                <label id="Password">Password<label>
+                    <input type="password" name="password" id="INpassword" class="form-control" required>
+                    <br>
+                      
+                <label id="Email">E-mail<label>
+                    <input type="text" name="email" id="INemail" class="form-control" required> 
+                    <br>
+
+                <label id="Gender">Gender<label>
+                    <input type="radio" name="gender" value="Male" class="form-control" required>Male <br>
+                    <input type="radio" name="gender" value="Female" class="form-control" required>Female <br>
+                    <br>
+                <label id="DOF">Date of Birth</label>
+                    <input type="date" name="dof" id="INdate" class="form-control" required> 
+                    <br>
+                
+                
+                <button id ="Submitbtn" type="submit"   >Register</button>
+                
+
+        </form>
+ 
+            
+
+
+        </div>
+    </body>
+</html>
