@@ -53,8 +53,7 @@ a,a:hover{
 #nav-bar{
     position: relative;
     box-sizing: border-box;
-    color: rgb(87, 0, 8);
-    background: rgb(197, 27, 27);
+    background: rgb(231, 159, 159);
     font-size: 17px;
     font-weight: 500;
     text-align: right;
@@ -91,7 +90,7 @@ a li:hover{
 /* Content */
 #content{
     min-width: 900px;
-    color: rgb(51, 51, 51);
+    color: #333;
     box-sizing: border-box;
     padding: 100px 0;
     background: #ddd;
@@ -134,7 +133,7 @@ p#tag-line{
     display: inline-block;
     line-height: 85px;
     text-indent: 8px;
-    background: rgb(51, 51, 51);
+    background: #333;
     font-size: 50px;
     font-family: "LCALLIG";
     border-radius: 100%;
@@ -204,7 +203,7 @@ input[type="password"]:hover{
 }
 
 #box-1{
-    border-right: solid 4px rgb(170, 170, 170);
+    border-right: solid 4px #aaa;
     float: left;
     padding: 100px 20px 100px 10px;
     margin-left: 60px;
@@ -243,7 +242,7 @@ input[type="password"]:hover{
 
 #content h4{
     padding-bottom: 10px;
-    border-bottom: solid 2px rgb(204, 204, 204);
+    border-bottom: solid 2px #ccc;
     margin-bottom: 30px;
     margin-top: -10px;
     text-indent: 50px;
@@ -311,7 +310,7 @@ input[type="password"]:hover{
 
 .img:hover #p{
     display: inline-block;
-    color: rgb(255, 255, 255);
+    color: white;
     opacity: 1;
 }
 
@@ -320,7 +319,7 @@ hr{
     width: 950px;
     height: 2px;
     border: none;
-    background: rgba(33, 255, 100, 0.5);
+    background: rgba(151, 151, 151, 0.5 );
 }
 
 
@@ -365,7 +364,7 @@ hr{
     margin: -2px -15px 10px;
     padding: 10px;
     text-align: justify;
-    background: rgb(51, 51, 51);
+    background: #333;
     color: #ddd;
 }
 
@@ -520,7 +519,7 @@ small#sml{
 }
 
 #iden{
-    color: rgb(153, 153, 153);
+    color: #999;
     display: inline-block;
     position: relative;
     bottom: 141px;
@@ -650,7 +649,7 @@ select{
     position: absolute;
     transform: translate(-90px, 25px);
     color: #ddd;
-    background: rgb(51, 51, 51);
+    background: #333;
     font-size: 1.02em;
     width: 90px;
     height: 38px;

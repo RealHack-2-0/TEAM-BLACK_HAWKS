@@ -118,7 +118,7 @@
 
                     function check($data){
                         $data = strtolower($data);
-                        if( $data != "what" && $data != "how" && $data != "who" && $data != "whom" && $data != "when" && $data != "why" && $data != "which" && $data != "where" && $data != "whose" && $data != "is" && $data != "am" && $data != "are" && $data != "do" && $data != "don't" && $data != "does" && $data != "did" && $data != "done" && $data != "was" && $data != "were" && $data != "has" && $data != "have" && $data != "will" && $data != "shall" && $data != "the" && $data != "i" && $data != "a" && $data != "an" && $data != "we" && $data != "he" && $data != "she" && $data != "")
+                        if( $data != "shit" && $data != "bastard" && $data != "idiot" && $data != "whom" && $data != "when" && $data != "why" && $data != "which" && $data != "where" && $data != "whose" && $data != "is" && $data != "am" && $data != "are" && $data != "do" && $data != "don't" && $data != "does" && $data != "did" && $data != "done" && $data != "was" && $data != "were" && $data != "has" && $data != "have" && $data != "will" && $data != "shall" && $data != "the" && $data != "i" && $data != "a" && $data != "an" && $data != "we" && $data != "he" && $data != "she" && $data != "")
                             return 1;
                         return 0;
                     }
@@ -140,7 +140,7 @@
                             }
                         }
                         if(!$query){
-                            echo "<script>window.alert('Search appropriate question.');</script>";
+                            echo "<script>window.alert('Please use apporiate words.');</script>";
                         }
                         else{
                             $r = mysqli_query($conn, $query);
